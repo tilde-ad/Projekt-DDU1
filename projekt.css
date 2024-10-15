@@ -1,9 +1,31 @@
-body {}
+:root {
+    --Black: #050505;
+    --AlmostBlack: #121212;
+    --DarkestGray: #353535;
+    --DarkGray: #666666;
+    --Gray: #7f7f7f;
+    --LightGray: #999999;
+    --AlmostWhite: #e5e5e5;
+    --White: #f4f4f4;
+    --Blue: #087fe7;
+
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(material/Inter.ttf);
+}
+
+body {
+    font-family: "Inter";
+}
 
 header {
     display: flex;
     gap: 20px;
     width: 1200px;
+    border-bottom: 1px solid var(--AlmostWhite);
+    padding: 10px 0px
 }
 
 #barkylogo {
@@ -14,6 +36,10 @@ nav {
     display: flex;
     gap: 20px;
 
+}
+
+a {
+    text-decoration: none;
 }
 
 #rightside {

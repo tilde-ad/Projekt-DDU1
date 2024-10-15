@@ -1,0 +1,29 @@
+body {}
+
+header {
+    display: flex;
+    gap: 20px;
+    width: 1200px;
+}
+
+#barkylogo {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+
+}
+
+#rightside {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+
+main {
+    width: 1000px;
+    justify-self: center;
+
+}

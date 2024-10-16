@@ -25,7 +25,8 @@ header {
     gap: 20px;
     width: 1200px;
     border-bottom: 1px solid var(--AlmostWhite);
-    padding: 10px 0px
+    padding: 10px 0px;
+
 }
 
 #barkylogo {
@@ -40,7 +41,49 @@ nav {
 
 a {
     text-decoration: none;
+    color: var(--Black);
 }
+
+.top-menu-container {
+    position: relative;
+}
+
+.top-menu-item {
+    display: block;
+    padding: 15px 25px;
+}
+
+.top-menu-item :hover {
+    background-color: var(--LightGray);
+}
+
+nav.sub-menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+}
+
+a.dropdown {
+    display: flex;
+}
+
+.dropdownimg {
+    width: 20px;
+}
+
+.top-menu-container:hover nav.sub-menu {
+    display: flex;
+}
+
+
+#BarkyButton {
+    background-color: var(--AlmostBlack);
+    color: var(--White);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
 
 #rightside {
     flex-grow: 1;

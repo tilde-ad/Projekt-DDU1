@@ -113,5 +113,28 @@ a.dropdown {
 main {
     width: 1000px;
     justify-self: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+#maintop {
+    display: flex;
+    width: 1000px;
+
+}
+
+#maintop-text {
+    width: 500px;
+}
+
+div #maintop-img {
+    width: 20px;
+}
+
+#threepeople {
+    height: 200px;
+}
 
 }

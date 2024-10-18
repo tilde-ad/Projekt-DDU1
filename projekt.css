@@ -150,4 +150,16 @@ div #maintop-img {
     padding: 10px;
     height: 25px;
 }
+
+.in-charge {
+    display: flex;
+    justify-content: center;
+}
+
+.main-middle {
+    width: 100%;
+}
+
+.charts {
+    max-width: 100%;
 }

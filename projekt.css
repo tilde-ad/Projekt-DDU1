@@ -137,4 +137,17 @@ div #maintop-img {
     height: 200px;
 }
 
+#mainlogos {
+    margin-top: 50px;
+    width: 1000px;
+    border-top: 1px solid var(--AlmostWhite);
+    border-bottom: 1px solid var(--AlmostWhite);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.companylogos {
+    padding: 10px;
+    height: 25px;
+}
 }

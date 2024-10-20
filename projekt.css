@@ -210,4 +210,18 @@ div #maintop-img {
 #stats-1-stats {
     display: flex;
 }
+
+#ratings-text-n-img {
+    display: flex;
+}
+
+#ratings-img {
+    height: 200px;
+}
+
+#ratings-numbers {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    text-align: center;
 }

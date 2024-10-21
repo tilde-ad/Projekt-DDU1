@@ -209,12 +209,38 @@ div #maintop-img {
 
 #stats-1-stats {
     display: flex;
+    flex-basis: auto;
+}
+
+.stats-1-text {
+    border-right: 1px solid var(--AlmostWhite);
+    padding: 0 20px;
+}
+
+.stats-1-text .third {
+    display: none;
+}
+
+.stats-1-text h4 {
+    font-size: var(--px24);
+    margin-bottom: 0;
+}
+
+.stats-1-text a {
+    color: var(--Black);
+}
+
+#ratings-title {
+    text-align: center;
+    font-size: var(--px24);
+    margin-top: 100px;
 }
 
 #ratings-text-n-img {
     display: flex;
 }
 
+#ratings-text-n-img h4 {
 #ratings-img {
     height: 200px;
 }
@@ -223,5 +249,27 @@ div #maintop-img {
     display: flex;
     flex-grow: 1;
     justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
+    color: var(--DarkGray);
+
+}
+
+.numbers {
+    font-size: var(--px53);
+    margin-bottom: 0;
+
+}
+
+.numbertext {
+    color: var(--Gray);
+
+}
+
+.numbersborder {
+    border: 1px solid var(--White);
+    align-items: center;
+    height: 110px;
+    margin-top: 30px
+}
 }

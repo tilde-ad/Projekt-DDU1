@@ -3,70 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barky for Dogs and Kennels</title>
     <link rel="stylesheet" href="projekt.css">
 </head>
 
 <body>
     <header>
-        <img id="barkylogo" src="material/brand.svg" alt="">
+        <img class="barkylogo" src="material/brand.svg" alt="">
         <nav id="leftside">
-            <div class="top-menu-container">
-                <a class="top-menu-item">Product<img src="material/nav-caret.svg" alt=""></a>
-                <nav class="sub-menu">
-                    <a class="dropdown"><img class="dropdownimg" src="material/nav-icon-01.svg" alt="">
-                        <h5>AI</h5>
-                        <p>Integrated AI assistant</p>
-                    </a>
-                    <a href=""><img src="material/nav-icon-02.svg" alt="">
-                        <h5>Docs</h5>
-                        <p>Simple & powerful</p>
-                    </a>
-                    <a href=""><img src="material/nav-icon-03.svg" alt="">
-                        <h5>Wikis</h5>
-                        <p>Centralize your knowledge</p>
-                    </a>
-                    <a href=""><img src="material/nav-icon-04.svg" alt="">
-                        <h5>Projects</h5>
-                        <p>For every team or size</p>
-                    </a>
-                    <a href=""><img src="material/nav-icon-05.svg" alt="">
-                        <h5>Calender</h5>
-                        <p>Time and work, together</p>
-                    </a>
-                    <a href=""><img src="material/nav-icon-06.svg" alt="">
-                        <h5>Sites</h5>
-                        <p>Publish anything, fast</p>
-                    </a>
-                    <a href=""><img src="material/nav-icon-07.svg" alt="">
-                        <h5>Templates</h5>
-                        <p>Setups to get you started</p>
-                    </a>
-                </nav>
+            <a class="top-menu-item" href="">Product <img class="nedpil" src="material/nav-caret.svg" alt=""></a>
+            <a class="top-menu-item" href="">Teams <img class="nedpil" src="material/nav-caret.svg" alt=""></a>
+            <a class="top-menu-item" href="">Individuals <img class="nedpil" src="material/nav-caret.svg" alt=""></a>
+            <a class="top-menu-item" href="">Download <img class="nedpil" src="material/nav-caret.svg" alt=""></a>
+            <a class="top-menu-item" href="">Pricing</a>
             </div>
-
-            <a href="">Teams <img src="material/nav-caret.svg" alt=""></a>
-            <a href="">Individuals <img src="material/nav-caret.svg" alt=""></a>
-            <a href="">Download <img src="material/nav-caret.svg" alt=""></a>
-            <a href="">Pricing</a>
         </nav>
         <nav id="rightside">
-            <a href="">Request a demo</a>
-            <a href="">Log in</a>
-            <a id="BarkyButton">Get Barky free</a>
+            <a class="top-menu-item" href="">Request a demo</a>
+            <div class="border"></div>
+            <a class="top-menu-item" href="">Log in</a>
+            <a class="BarkyButton" id="hide">Get Barky free</a>
+            <img id="hamburger" src="material/hamburger.svg" alt="">
         </nav>
     </header>
     <main>
         <div id="maintop">
             <div id="maintop-text">
                 <h1>Where packs bark <br>better, together</h1>
-                <p>Your chew toys, sniffing spots and bark logs, all side <br> by side. For small packs to big kennels.
+                <p class="Lighttext">Your chew toys, sniffing spots and bark logs, all side <br> by side. For small
+                    packs to big kennels.
                 </p>
-                <a id="BarkyButton">Get Barky free</a>
+                <a class="BarkyButton" href="">Get Barky free</a>
             </div>
-            <div id="maintop-img">
-                <img id="threepeople" src="material/teams-hero.png" alt="">
-            </div>
+            <img id="threepeople" src="material/teams-hero.png" alt="">
         </div>
         <div id="mainlogos">
             <img class="companylogos" src="material/company-logo-01.png" alt="">
@@ -83,44 +53,53 @@
             <img class="companylogos" src="material/company-logo-12.png" alt="">
             <img class="companylogos" src="material/company-logo-13.png" alt="">
         </div>
-        <div class="main-middle"></div>
-        <h2>Fetch results quicker</h2>
-        <p>Keep all your furry friends in line from sniffing out the plan to fetching the final stick. Manage big doggy
-            dreams and daily bone-burying tasks with custom Bark and Wag charts.</p>
-        <img src="material/usp-01.png" alt="">
-        <h2>“Barky helps us keep an eye on all 30+ squirrel-chasing missions we have going at once. We can sniff out any
-            of them to get the full scoop right away.”
-        </h2>
-        <div class="in-charge">
-            <img class="charts" src="material/face-01.png" alt="">
-            <div class="in-charge-name">
-                <h4>Barkley Woofington</h4>
-                <p>Chief Bone Officer, MetaLab</p>
+        <div id="main-middle-container">
+            <div class="main-middle">
+                <h2>Fetch results quicker</h2>
+                <p class="Lighttext chartsover">Keep all your furry friends in line from sniffing out the plan to
+                    fetching the
+                    final stick. Manage big doggy dreams and daily bone-burying tasks with custom Bark and Wag charts.
+                </p>
+                <img class="charts" src="material/usp-01.png" alt="">
+                <h2 class="Lighttext quote">“Barky helps us keep an eye on all 30+ squirrel-chasing missions we
+                    have going at once. We can sniff out any of <br> them to get the full scoop right away.”</h2>
+                <div class="in-charge">
+                    <img class="in-charge-face" src="material/face-01.png" alt="">
+                    <div class="in-charge-name">
+                        <h4>Barkley Woofington</h4>
+                        <p>Chief Bone Officer, MetaLab</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="main-middle">
-            <h2>Your online kennel</h2>
-            <p>Say goodbye to scattered chew toys and different versions of the same bone. Keep everything in one spot,
-                so every pup has what they need to wag their tails and do their best tricks.</p>
-            <img class="charts" src="material/usp-02.png" alt="">
-            <h2>“Before Barky, all the best sniffing spots were locked in the heads of a few top dogs. Now every pup
-                feels empowered to fetch their own info and zoom around like a greyhound.”</h2>
-            <div class="in-charge">
-                <img src="material/face-02.png" alt="">
-                <div class="in-charge-name">
-                    <h4>Rufus Tailwagger</h4>
-                    <p>Paw-sitive Change Maker, Capgemini</p>
+            <div class="main-middle">
+                <h2>Your online kennel</h2>
+                <p class="Lighttext chartsover">Say goodbye to scattered chew toys and different versions of the same
+                    bone. Keep
+                    everything in one
+                    spot, so every pup has what they need to wag their tails and do their best tricks.</p>
+                <img class="charts" src="material/usp-02.png" alt="">
+                <h2 class="Lighttext quote">“Before Barky, all the best sniffing spots were locked in the heads
+                    of a few top dogs. Now every pup feels empowered <br> to fetch their own info and zoom around like a
+                    greyhound.”</h2>
+                <div class="in-charge">
+                    <img class="in-charge-face" src="material/face-02.png" alt="">
+                    <div class="in-charge-name">
+                        <h4>Rufus Tailwagger</h4>
+                        <p>Paw-sitive Change Maker, Capgemini</p>
+                    </div>
                 </div>
             </div>
             <div class="main-middle">
                 <h2>Docs that keep pups in a row</h2>
-                <p>Meeting barks, treat planning, sniffing docs — log all crucial decisions and let the pack know who’s
-                    fetching what and when.</p>
+                <p class="Lighttext chartsover">Meeting barks, treat planning, sniffing docs — log all crucial decisions
+                    and let
+                    the pack know
+                    who’s fetching what and when.</p>
                 <img class="charts" src="material/usp-03.png" alt="">
-                <h2>“We used to bark out meeting recaps all the time. But now the pack knows where to sniff if they have
-                    a question about the plan or anything else.”</h2>
+                <h2 class="Lighttext quote">“We used to bark out meeting recaps all the time. But now <br> the pack
+                    knows where to sniff if they have a question <br> about the plan or anything else.”</h2>
                 <div class="in-charge">
-                    <img src="material/face-03.png" alt="">
+                    <img class="in-charge-face" src="material/face-03.png" alt="">
                     <div class="in-charge-name">
                         <h4>Bella Woofstein</h4>
                         <p>Chief Treat Curriculum Designer, Codecademy</p>
@@ -130,10 +109,15 @@
         </div>
         <div id="free-plan">
             <div id="plan-text"></div>
-            <h2>Start with the Free Plan</h2>
-            <p>Round up your pack and start sniffing out some organization. No need to worry about time limits or pawing
-                over credit cards—just wag your tail and give it a try before you commit.</p>
-            <a class="BarkyButton">Get Barky Free</a>
+            <h2 id="plan-title">Start with the Free Plan</h2>
+            <p class="Lighttext plan-description">Round up your pack and start sniffing out some organization. No need
+                to
+                <br> worry
+                about
+                time limits or pawing
+                over credit cards—just wag your tail and <br> give it a try before you commit.
+            </p>
+            <a class="BarkyButton" href="">Get Barky Free</a>
             <div id="plan-list">
                 <div class="plan-list-item">
                     <p class="Gray-text">Features</p>
@@ -175,28 +159,34 @@
                     <p class="Gray-text">Fetch Integration</p>
                     <img class="checkmark" src="material/check.svg" alt="">
                 </div>
-
             </div>
         </div>
         <div id="stats-1">
             <div id="stats-1-title">
                 <h2>Built for every team</h2>
-                <p>Barky solves problems unique to any dog.</p>
+                <p class="Lighttext">Barky solves problems unique to any dog.</p>
             </div>
             <div id="stats-1-stats">
                 <div class="stats-1-text">
                     <h4>🛠️ Engineering</h4>
-                    <p>Ship features faster with sprint tasks, code guidelines, bug fixes & more, all in one place.</p>
+                    <p class="Lighttext">Ship features faster with sprint tasks, <br> code guidelines, bug fixes & more,
+                        all <br>
+                        in one place.</p>
                     <a href="">Learn more</a>
                 </div>
                 <div class="stats-1-text">
                     <h4>🎒 Product</h4>
-                    <p>Get your work into the world quicker with user research and cross-breed projects in Barky.</p>
+                    <p class="Lighttext">Get your work into the world quicker <br> with user research and cross-breed
+                        <br>
+                        projects in Barky.
+                    </p>
                     <a href="">Learn more</a>
                 </div>
-                <div class="stats-1-text">
+                <div class="stats-1-text third">
                     <h4>🎨 Design</h4>
-                    <p>Build a consistent design language by uniting treats, chewies, and bones in Barky.</p>
+                    <p class="Lighttext">Build a consistent design language by <br> uniting treats, chewies, and bones
+                        in <br>
+                        Barky.</p>
                     <a href="">Learn more</a>
                 </div>
 
@@ -209,34 +199,36 @@
             <div id="ratings-text-n-img">
                 <div id="ratings-text">
                     <h4>Barky is rated the best on G2</h4>
-                    <p>Barky consistently ranks as the G2 industry leader based on hundreds of dog reviews. But don’t
-                        take a cats word for it. Check out G2’s comparison for more info.</p>
+                    <p>Barky consistently ranks as the G2 industry leader based <br> on hundreds of dog reviews. But
+                        don’t take a cats word for <br> it. Check out <span>G2’s comparison</span> for more info.</p>
                 </div>
-                <div>
+                <div id="badges">
                     <img id="ratings-img" src="material/badges.png" alt="">
                 </div>
             </div>
         </div>
-        <div id="ratings-part2">
-            <div id="ratings-numbers">
-                <div class="ratings-numbers-block">
-                    <h1>86%</h1>
-                    <p>Ease of chew</p>
-                </div>
-                <div class="ratings-numbers-block">
-                    <h1>90%</h1>
-                    <p>Ease of fetch</p>
-                </div>
-                <div class="ratings-numbers-block">
-                    <h1>91%</h1>
-                    <p>Meets treats standards</p>
-                </div>
-                <div class="ratings-numbers-block">
-                    <h1>86%</h1>
-                    <p>Ease of bury</p>
-                </div>
-            </div>.
+        <div id="ratings-numbers">
+            <div class="ratings-numbers-block">
+                <h1 class="numbers">86%</h1>
+                <p class="numbertext">Ease of chew</p>
+            </div>
+            <div class="numbersborder"></div>
+            <div class="ratings-numbers-block ">
+                <h1 class="numbers">90%</h1>
+                <p class="numbertext">Ease of fetch</p>
+            </div>
+            <div class="numbersborder"></div>
+            <div class="ratings-numbers-block">
+                <h1 class="numbers">91%</h1>
+                <p class="numbertext">Meets treats standards</p>
+            </div>
+            <div class="numbersborder"></div>
+            <div class="ratings-numbers-block">
+                <h1 class="numbers">86%</h1>
+                <p class="numbertext">Ease of bury</p>
+            </div>
         </div>
+
         <div id="last-part">
             <h2>Try Barky today</h2>
             <p class="Lighttext">Get started for free, then add any dog you want.</p>

@@ -277,4 +277,35 @@ div #maintop-img {
     margin-bottom: 100px;
     text-align: center;
 }
+
+footer {
+    max-width: 1200px;
+    display: flex;
+    gap: 50px;
+    border-top: 1px solid var(--AlmostWhite);
+    justify-content: space-around;
+}
+
+.footer-part {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.footer-part p {
+    color: var(--AlmostBlack);
+}
+
+.footer-link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--Gray);
+}
+
+.social-img {
+    height: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
 }
